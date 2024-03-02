@@ -1,0 +1,92 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  color: white;
+  background-color: black;
+}
+
+#a {
+  position: absolute;
+  top: 4.5%;
+  left: 5%;
+  font-size: 20px;
+}
+
+#b {
+  position: absolute;
+  top: 5%;
+  left: 15%;
+  word-spacing: 30px;
+}
+
+#c {
+  position: absolute;
+  left: 5%;
+  bottom: 5%;
+}
+
+#e {
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+}
+
+h1 {
+  font-size: 230px;
+  text-transform: capitalize;
+}
+
+#f {
+  position: absolute;
+  top: 0%;
+  right: 5%;
+}
+
+#g {
+  position: absolute;
+  top: 22%;
+  right: 5%;
+  z-index: 1;
+}
+
+img {
+  height: 60%;
+  width: 23%;
+  position: absolute;
+  left: 30%;
+  bottom: 0%;
+}
+
+#progress {
+  position: absolute;
+  bottom: 5%;
+  right: 15%;
+  height: 0.5%;
+  width: 10%;
+  background-color: rgb(244, 244, 244);
+}
+
+#growth {
+  position: relative;
+  height: 100%;
+  width: 70%;
+  background-color: blue;
+}
+
+#growth h5 {
+  position: absolute;
+  right: -10px;
+  top: -20px;
+}
